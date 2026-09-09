@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bachat AI – Privacy Policy</title>
+<style>
+  body{font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;max-width:760px;margin:0 auto;padding:32px 20px;color:#1c2024;line-height:1.6;background:#fff}
+  h1{color:#00875a;margin-bottom:4px}
+  h2{margin-top:32px;font-size:20px}
+  .muted{color:#6b7280;font-size:14px}
+  .box{background:#f0faf5;border-left:4px solid #00875a;padding:12px 16px;border-radius:6px;margin:18px 0}
+  table{border-collapse:collapse;width:100%;font-size:15px}
+  td,th{border:1px solid #e5e7eb;padding:8px 10px;text-align:left;vertical-align:top}
+  th{background:#f6f7f9}
+  a{color:#00875a}
+</style>
+</head>
+<body>
+<h1>Bachat AI – Privacy Policy</h1>
+<p class="muted">Last updated: 9 September 2026 · App package: <code>com.bhavan.bachat_ai</code></p>
+
+<div class="box"><strong>In one line:</strong> Bachat AI reads your bank and UPI SMS on your phone to track spending, bills, challans and insurance dates. Your SMS messages are never uploaded, sold or shared. You can delete everything from inside the app at any time.</div>
+
+<h2>1. Who we are</h2>
+<p>Bachat AI is a personal finance assistant for Android, published by Bhavan Classes, Sector 15, Chandigarh, India. Contact: <a href="mailto:login2atharv53@gmail.com">login2atharv53@gmail.com</a>.</p>
+
+<h2>2. What the app does with SMS</h2>
+<p>The core purpose of Bachat AI is <strong>SMS-based money management</strong>. With your permission (READ_SMS and RECEIVE_SMS), the app reads messages on your device to detect:</p>
+<ul>
+  <li>UPI and bank transaction messages (amount, merchant, date)</li>
+  <li>Low-balance alerts from your bank</li>
+  <li>Bill due-date messages (electricity, gas, mobile, broadband, credit card)</li>
+  <li>Traffic challan messages</li>
+  <li>Insurance renewal reminders</li>
+</ul>
+<p>All SMS reading and parsing happens <strong>on your device</strong>. Messages that are not financial (OTPs, personal chats, promotions) are ignored and never stored.</p>
+<p>The app works without SMS permission too – you can add entries manually. Nothing in the app requires the permission except automatic detection.</p>
+
+<h2>3. What we store</h2>
+<table>
+<tr><th>Data</th><th>Where</th><th>Why</th></tr>
+<tr><td>Extracted transaction details (amount, merchant name, category, date, bank account last 4 digits, UPI reference number) and the text of the matched financial SMS</td><td>Your private account in Google Firebase (Firestore), servers located in Delhi, India</td><td>To show your spending history and analysis, and to keep it if you change phones</td></tr>
+<tr><td>Bill, challan and insurance reminders extracted from SMS</td><td>Same</td><td>To alert you before due dates</td></tr>
+<tr><td>Lending entries and vehicle details you type in</td><td>Same</td><td>Reminders and tracking</td></tr>
+<tr><td>An anonymous device account ID (no name, phone number or email is collected)</td><td>Firebase Authentication</td><td>To keep your data separate from other users</td></tr>
+<tr><td>A push-notification token</td><td>Firebase Cloud Messaging</td><td>To deliver reminders</td></tr>
+</table>
+<p>Each user can read and write <em>only</em> their own data. This is enforced by server-side security rules.</p>
+
+<h2>4. What we do not do</h2>
+<ul>
+  <li>We do not upload your full SMS inbox. Only messages identified as financial are processed, and non-financial messages are discarded immediately.</li>
+  <li>We do not sell, rent or share your data with any third party.</li>
+  <li>We do not show advertisements.</li>
+  <li>We do not collect your contacts, location, photos or call logs.</li>
+  <li>We do not send SMS on your behalf. Reminder messages open your own WhatsApp or SMS app with a pre-filled draft that you choose to send.</li>
+</ul>
+
+<h2>5. Third-party services</h2>
+<p>The app uses Google Firebase (Authentication, Cloud Firestore, Cloud Messaging) to store your data and deliver notifications. Google's handling of this infrastructure is governed by the <a href="https://firebase.google.com/support/privacy">Firebase Privacy and Security</a> terms.</p>
+
+<h2>6. Deleting your data</h2>
+<p>Open the app → <strong>Settings → Sab data mita dein</strong>. This permanently deletes all your transactions, reminders, lending entries, vehicles and your anonymous account from our servers immediately. You may also email us at the address above and we will delete your data within 7 days.</p>
+<p>Uninstalling the app removes all local data. Revoking SMS permission in Android settings stops all SMS reading instantly.</p>
+
+<h2>7. Security</h2>
+<p>Data is transmitted over encrypted connections (HTTPS) and stored in Google Firebase with per-user access rules. No employee or third party has routine access to your records.</p>
+
+<h2>8. Children</h2>
+<p>Bachat AI is intended for adults managing their own finances and is not directed at children under 18.</p>
+
+<h2>9. Changes</h2>
+<p>If this policy changes, the new version will be published at this address with an updated date.</p>
+
+<h2>10. Contact</h2>
+<p>Questions or requests: <a href="mailto:login2atharv53@gmail.com">login2atharv53@gmail.com</a></p>
+</body>
+</html>
