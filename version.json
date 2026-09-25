@@ -1,6 +1,6 @@
 {
-  "build": 13,
+  "build": 14,
   "version": "1.0.0",
-  "notes": "New: phone reminders before every bill is due, and My goals - add something you want to buy and see when you can afford it. Updates are now easier to find in Settings. ",
+  "notes": "Easier to use: Bills and Goals now have their own tabs, the + button adds anything (bill, goal, card, lending, vehicle), alerts sit under the bell on Home, and everything else is neatly grouped under More. ",
   "apk": "https://login2atharv53.github.io/bachat-ai-privacy/bachat-ai.apk"
 }
