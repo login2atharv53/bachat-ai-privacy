@@ -1,6 +1,6 @@
 {
-  "build": 15,
+  "build": 16,
   "version": "1.0.0",
-  "notes": "Privacy: your SMS text now never leaves your phone - only the amount, date and account digits are saved, and any SMS text saved by older versions is deleted from our servers automatically. ",
+  "notes": "New: fill forms from a photo - scan your credit card, card bill, insurance or fee notice, or vehicle papers and the details fill in by themselves (read on your phone, never uploaded). Also: your SMS text now never leaves your phone. ",
   "apk": "https://login2atharv53.github.io/bachat-ai-privacy/bachat-ai.apk"
 }
