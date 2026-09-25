@@ -1,6 +1,6 @@
 {
-  "build": 14,
+  "build": 15,
   "version": "1.0.0",
-  "notes": "Easier to use: Bills and Goals now have their own tabs, the + button adds anything (bill, goal, card, lending, vehicle), alerts sit under the bell on Home, and everything else is neatly grouped under More. ",
+  "notes": "Privacy: your SMS text now never leaves your phone - only the amount, date and account digits are saved, and any SMS text saved by older versions is deleted from our servers automatically. ",
   "apk": "https://login2atharv53.github.io/bachat-ai-privacy/bachat-ai.apk"
 }
