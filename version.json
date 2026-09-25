@@ -1,6 +1,6 @@
 {
-  "build": 12,
+  "build": 13,
   "version": "1.0.0",
-  "notes": "Build 12: goals - when can I buy it, and should I",
+  "notes": "New: phone reminders before every bill is due, and My goals - add something you want to buy and see when you can afford it. Updates are now easier to find in Settings. ",
   "apk": "https://login2atharv53.github.io/bachat-ai-privacy/bachat-ai.apk"
 }
