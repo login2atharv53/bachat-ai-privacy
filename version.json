@@ -1,6 +1,6 @@
 {
-  "build": 10,
+  "build": 11,
   "version": "1.0.0",
-  "notes": "Fix build 10: add anchorDue, fix HDFC card-bill match",
+  "notes": "Build 11: phone reminders for bills",
   "apk": "https://login2atharv53.github.io/bachat-ai-privacy/bachat-ai.apk"
 }
