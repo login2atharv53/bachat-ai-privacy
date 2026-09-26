@@ -18,7 +18,7 @@
 </head>
 <body>
 <h1>Bachat AI – Privacy Policy</h1>
-<p class="muted">Last updated: 9 September 2026 · App package: <code>com.bhavan.bachat_ai</code></p>
+<p class="muted">Last updated: 26 September 2026 · App package: <code>com.bhavan.bachat_ai</code></p>
 
 <div class="box"><strong>In one line:</strong> Bachat AI reads your bank and UPI SMS on your phone to track spending, bills, challans and insurance dates. Your SMS messages are never uploaded, sold or shared. You can delete everything from inside the app at any time.</div>
 
@@ -40,10 +40,11 @@
 <h2>3. What we store</h2>
 <table>
 <tr><th>Data</th><th>Where</th><th>Why</th></tr>
-<tr><td>Extracted transaction details (amount, merchant name, category, date, bank account last 4 digits, UPI reference number) and the text of the matched financial SMS</td><td>Your private account in Google Firebase (Firestore), servers located in Delhi, India</td><td>To show your spending history and analysis, and to keep it if you change phones</td></tr>
+<tr><td>Extracted transaction details: amount, merchant name or UPI ID, category, date, last 4 digits of the bank account or card, UPI reference number, and short labels such as &ldquo;bank charge&rdquo; or &ldquo;failed payment&rdquo;. <strong>The text of your SMS is not stored</strong> &ndash; it stays on your phone.</td><td>Your private account in Google Firebase (Firestore), servers located in Delhi, India</td><td>To show your spending history and analysis, and to keep it if you change phones</td></tr>
 <tr><td>Bill, challan and insurance reminders extracted from SMS</td><td>Same</td><td>To alert you before due dates</td></tr>
 <tr><td>Lending entries and vehicle details you type in</td><td>Same</td><td>Reminders and tracking</td></tr>
-<tr><td>An anonymous device account ID (no name, phone number or email is collected)</td><td>Firebase Authentication</td><td>To keep your data separate from other users</td></tr>
+<tr><td>Bills, EMIs, premiums, fees, credit cards and goals you add (names, amounts, due dates; for a card only the last 4 digits)</td><td>Same</td><td>Your payment calendar, reminders and goal plans</td></tr>
+<tr><td>An account ID. It is anonymous (no name, phone number or email) unless you choose <strong>Back up with Google</strong> &ndash; then the email address and name of that Google account are linked to it. Signing in with Google is optional.</td><td>Firebase Authentication</td><td>To keep your data separate from other users, and to restore it on a new phone if you signed in with Google</td></tr>
 <tr><td>A push-notification token</td><td>Firebase Cloud Messaging</td><td>To deliver reminders</td></tr>
 </table>
 <p>Each user can read and write <em>only</em> their own data. This is enforced by server-side security rules.</p>
@@ -53,15 +54,16 @@
   <li>We do not upload your full SMS inbox. Only messages identified as financial are processed, and non-financial messages are discarded immediately.</li>
   <li>We do not sell, rent or share your data with any third party.</li>
   <li>We do not show advertisements.</li>
-  <li>We do not collect your contacts, location, photos or call logs.</li>
+  <li>We do not collect your contacts, location or call logs.</li>
+  <li>Photos you take to fill in a form (a card, a bill, a policy) are read <strong>on your phone</strong> and deleted straight after. The photo is never uploaded or stored, and a full card number, expiry date or CVV is never kept &ndash; only the few details the form needs, which you check before saving.</li>
   <li>We do not send SMS on your behalf. Reminder messages open your own WhatsApp or SMS app with a pre-filled draft that you choose to send.</li>
 </ul>
 
 <h2>5. Third-party services</h2>
-<p>The app uses Google Firebase (Authentication, Cloud Firestore, Cloud Messaging) to store your data and deliver notifications. Google's handling of this infrastructure is governed by the <a href="https://firebase.google.com/support/privacy">Firebase Privacy and Security</a> terms.</p>
+<p>The app uses Google Firebase (Authentication, Cloud Firestore, Cloud Messaging) to store your data and deliver notifications, Google Sign-In if you choose to back up with Google, and Google ML Kit text recognition, which runs entirely on your phone, to read photos you take. Google's handling of this infrastructure is governed by the <a href="https://firebase.google.com/support/privacy">Firebase Privacy and Security</a> terms and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 
 <h2>6. Deleting your data</h2>
-<p>Open the app → <strong>Settings → Sab data mita dein</strong>. This permanently deletes all your transactions, reminders, lending entries, vehicles and your anonymous account from our servers immediately. You may also email us at the address above and we will delete your data within 7 days.</p>
+<p>Open the app → <strong>More → Delete all data</strong>. This permanently deletes all your transactions, reminders, bills, goals, cards, lending entries, vehicles and your account from our servers immediately. If you signed in with Google, you can also remove Bachat AI's access at <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a>. You may also email us at the address above and we will delete your data within 7 days.</p>
 <p>Uninstalling the app removes all local data. Revoking SMS permission in Android settings stops all SMS reading instantly.</p>
 
 <h2>7. Security</h2>
