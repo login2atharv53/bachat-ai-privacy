@@ -1,6 +1,6 @@
 {
-  "build": 19,
+  "build": 20,
   "version": "1.0.0",
-  "notes": "New: tap any payment and say who it was to. Name a shop once and every payment to it - past and future - shows that name and category. ",
+  "notes": "New: payments name themselves. Allow Bachat AI to read payment notifications from your UPI app (only those) and card payments show who you paid - no typing. ",
   "apk": "https://login2atharv53.github.io/bachat-ai-privacy/bachat-ai.apk"
 }
