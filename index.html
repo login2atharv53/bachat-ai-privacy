@@ -37,6 +37,15 @@
 <p>All SMS reading and parsing happens <strong>on your device</strong>. Messages that are not financial (OTPs, personal chats, promotions) are ignored and never stored.</p>
 <p>The app works without SMS permission too – you can add entries manually. Nothing in the app requires the permission except automatic detection.</p>
 
+<h2>2a. Payment notifications from UPI apps (optional)</h2>
+<p>Card and bank SMS often do not name who you paid. If you switch on <strong>Payment names from UPI apps</strong> (Android notification access), the app reads payment notifications from UPI apps only &ndash; such as PhonePe, Google Pay, Paytm, BHIM and Amazon Pay &ndash; to find the payee&rsquo;s name and put it on the matching payment.</p>
+<ul>
+  <li>Notifications from every other app (WhatsApp, messages, email and so on) are ignored and never read.</li>
+  <li>Only notifications that mention an amount are kept, <strong>on your phone only</strong>, and deleted after 3 days.</li>
+  <li>Only the payee name is saved with the payment. The notification itself is never uploaded.</li>
+  <li>You can switch it off at any time in Android settings or in the app under <strong>More</strong>.</li>
+</ul>
+
 <h2>3. What we store</h2>
 <table>
 <tr><th>Data</th><th>Where</th><th>Why</th></tr>
@@ -54,7 +63,7 @@
   <li>We do not upload your full SMS inbox. Only messages identified as financial are processed, and non-financial messages are discarded immediately.</li>
   <li>We do not sell, rent or share your data with any third party.</li>
   <li>We do not show advertisements.</li>
-  <li>We do not collect your contacts, location or call logs.</li>
+  <li>We do not collect your contacts, location or call logs, and we do not read notifications from any app other than UPI payment apps (and only if you switch that on).</li>
   <li>Photos you take to fill in a form (a card, a bill, a policy) are read <strong>on your phone</strong> and deleted straight after. The photo is never uploaded or stored, and a full card number, expiry date or CVV is never kept &ndash; only the few details the form needs, which you check before saving.</li>
   <li>We do not send SMS on your behalf. Reminder messages open your own WhatsApp or SMS app with a pre-filled draft that you choose to send.</li>
 </ul>
